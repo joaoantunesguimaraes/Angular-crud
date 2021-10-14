@@ -1,0 +1,29 @@
+/* Classe "header" */
+.header {
+    display: flex;
+    align-items: center;/* eixo Vertical */
+}
+
+
+/* Elemento "a" descendente da Classe "header"  */
+.header a {
+    display: flex;
+    align-items: center;/* eixo Vertical */
+    text-decoration: none;
+    color: #333;
+}
+
+/*  Classe "logo" descendente da Classe "header" */
+.header .logo {
+    max-height: 32px;
+}
+
+/*  Classe "title-group" descendente da Classe "header" */
+.header .title-group {
+    padding-left: 25px;
+}
+
+/*  Elemento "i" que é Descendente da Classe "title-group" , que por sua vez é descendente da Classe "header"  */
+.header .title-group i {
+    padding-right: 5px;
+}

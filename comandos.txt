@@ -1,0 +1,104 @@
+
+
+cd .\backend\
+
+
+npm init -y
+
+
+npm i json-server
+
+
+cd D:\dev\javascript\exercicios-web\angular\crud\backend
+
+
+
+npm start
+
+Abrir outro terminal
+
+ir para a directoria D:\dev\javascript\exercicios-web\angular\crud\
+
+
+npm i -g @angular/cli
+
+
+ng new frontend --minimal
+
+
+--
+cd frontend
+
+npm start
+
+abrir novo terminal
+
+testar num Browser
+http://localhost:4200/
+
+
+
+parar tudo
+
+ng add @angular/material
+
+frontend
+npm start
+
+--
+outro terminal
+ir para a directoria D:\dev\javascript\exercicios-web\angular\crud\
+
+tive de fazer
+npm install -g json-server
+
+json-server --watch db.json --port 3001
+
+
+---
+
+Noutro terminal
+ir para a directoria D:\dev\javascript\exercicios-web\angular\crud\frontend
+ng g c components/template/header
+
+
+Gerar o componente Footer
+ng g c components/template/footer
+
+Criar Componente de Navegação
+ng g c components/template/nav
+
+// Gerar Componente home
+
+ng generate c views/home
+
+// Gerar Componente product-crud
+ng generate c views/product-crud
+
+// Gerar Componente product-create
+ng generate c product/product-create
+
+// Instalar Plugin AutoImport
+
+// Criar 1 Service  (de nome "product")
+ng generate s components/product/product
+
+// Gerar Componente product-read
+ng generate c components/product/product-read
+
+
+
+// criar uma tabela com schematics
+// https://material.angular.io/guide/schematics
+ng generate @angular/material:table components/product/product-read2
+
+
+// Criar 1 novo componente
+ng generate c components/product/product-update
+
+// Criar 1 novo componente
+ng generate c components/product/product-delete
+
+
+// Criar 1 novo Service
+ng generate s components/template/header/header
